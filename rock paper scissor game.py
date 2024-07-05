@@ -29,6 +29,12 @@ scissors = '''
 import random
 print("Enter your choice - rock or paper or scissors")
 a = input()
+if a == "rock":
+    print(rock)
+elif a =="paper":
+    print(paper)
+else:
+    print(scissors)
 b = random.randint(0,2)
 c = [rock, paper, scissors]
 d = c[b]
