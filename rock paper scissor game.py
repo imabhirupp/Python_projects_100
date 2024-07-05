@@ -30,15 +30,17 @@ import random
 print("Enter your choice - rock or paper or scissors")
 a = input()
 if a == "rock":
-    print(rock)
+    print(f"You chose: {rock}")
 elif a =="paper":
-    print(paper)
+    print(f"You chose: {paper}")
+elif a=="scissors":
+    print(f"You chose: {scissors}")
 else:
-    print(scissors)
+    exit()
 b = random.randint(0,2)
 c = [rock, paper, scissors]
 d = c[b]
-print(d)
+print(f"Computer chose: {d}")
 if a=="rock" and d==rock:
     print("Draw")
 elif a=="rock" and d==scissors:
