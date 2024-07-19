@@ -27,7 +27,7 @@ def easy():
       print("Too High\nGuess again.")
     elif guess==number:
       print(f"You guessed right {guess} and you won!")
-      break
+      break   #does the same thing as return i.e. breaks out of the loop
 
 def hard():
   for a in range(5,0,-1):
@@ -40,7 +40,7 @@ def hard():
       print("Too High\nGuess again.")
     elif guess==number:
       print(f"You guessed right, the answer was {guess}")
-      break
+      return   #does the same thing as break i.e. breaks out of the loop
 if difficulty == "easy":
   easy()
 else:
