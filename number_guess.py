@@ -15,7 +15,7 @@ print("I'm thinking of a number between 1 and 100.")
 number = random.randint(1,100)
 print("Choose a difficulty. Type 'Easy' or 'Hard': ")
 difficulty = input().lower()
-print(number)
+print(f"Psst, The number I guessed is {number}")
 def easy():
   for a in range(10,0,-1):
     global number
