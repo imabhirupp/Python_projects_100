@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Oops-Python" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../oop-coffee-machine-start/oop-coffee-machine-start" vcs="Git" />
   </component>
 </project>
